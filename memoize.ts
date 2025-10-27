@@ -1,3 +1,7 @@
+/**
+ * Given a function fn, return a memoized version of that function.
+ * https://leetcode.com/problems/memoize/description/
+*/
 type Fn = (...params: number[]) => number
 
 function memoize(fn: Fn): Fn {
